@@ -1,0 +1,66 @@
+{
+  "manifest_version": 3,
+  "name": "PresentationGlass",
+  "version": "0.6.0",
+  "description": "Shows the current and next Google Slides slide on Meta Ray-Ban Display, so that you can present while looking at the audience.",
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://docs.google.com/*",
+    "https://*.googleusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://docs.google.com/presentation/*"
+      ],
+      "js": [
+        "vendor/pdfjs/pdf.min.js",
+        "vendor/pdfjs/pdf.worker.min.js",
+        "lib/protocol.js",
+        "lib/i18n.js",
+        "lib/pdf-slides.js",
+        "adapters/google-slides.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://docs.google.com/presentation/*",
+        "https://www.youtube.com/embed/*",
+        "https://www.youtube-nocookie.com/embed/*",
+        "https://youtube.googleapis.com/*",
+        "https://drive.google.com/*"
+      ],
+      "js": [
+        "lib/protocol.js",
+        "media.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/embed/*",
+        "https://www.youtube-nocookie.com/embed/*",
+        "https://youtube.googleapis.com/*"
+      ],
+      "js": [
+        "media-youtube-page.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ],
+  "action": {
+    "default_title": "PresentationGlass",
+    "default_popup": "popup.html"
+  }
+}

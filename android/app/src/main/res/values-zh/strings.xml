@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">演示中</string>
+    <string name="notification_text">正在电脑和眼镜之间中继</string>
+
+    <string name="checking_permissions">正在检查权限…</string>
+    <string name="bluetooth_permission_required">需要蓝牙权限</string>
+    <string name="section_register">1. 连接眼镜和应用</string>
+    <string name="registration_state">注册状态：%1$s</string>
+    <string name="registration_registered">已注册</string>
+    <string name="registration_available">未注册</string>
+    <string name="registration_unavailable">无法使用（请检查 Meta AI 应用）</string>
+    <string name="register_button">注册眼镜</string>
+    <string name="unregister_button">取消注册</string>
+    <string name="phone_preview_switch">不用眼镜试用（虚拟眼镜）</string>
+    <string name="phone_preview_hint">在电脑上运行“adb forward tcp:9000 tcp:9000”，然后在 Chrome 中打开 %1$s，即可查看眼镜画面。</string>
+    <string name="section_keyboard">2. 用作电脑的蓝牙键盘</string>
+    <string name="keyboard_explanation">把手机变成电脑的蓝牙键盘。在 Neural Band 上滑动，电脑会收到真实的方向键。</string>
+    <string name="keyboard_status">状态：%1$s</string>
+    <string name="keyboard_unavailable">无法使用</string>
+    <string name="keyboard_registering">正在准备…</string>
+    <string name="keyboard_waiting">正在等待电脑连接</string>
+    <string name="keyboard_connected">已连接电脑</string>
+    <string name="keyboard_pairing_steps">新的电脑需要配对一次。按下方按钮后，在电脑的蓝牙设置中选择“添加设备”，再选择 PresentationGlass。</string>
+    <string name="keyboard_discoverable_button">让电脑可以找到手机</string>
+    <string name="section_pc">3. 连接电脑上的 Chrome 扩展</string>
+    <string name="pc_instructions">在 Chrome 扩展中输入以下信息。</string>
+    <string name="pin_label">PIN：%1$s</string>
+    <string name="port_label">端口：%1$d</string>
+    <string name="ip_label">IP：%1$s</string>
+    <string name="no_ip_address">找不到 IP 地址。请打开热点或 Wi-Fi。</string>
+    <string name="pc_connected">电脑：已连接</string>
+    <string name="pc_disconnected">电脑：未连接</string>
+    <string name="refresh_ip_button">重新获取 IP</string>
+    <string name="change_pin_button">更换 PIN</string>
+    <string name="section_glasses">4. 在眼镜上显示</string>
+    <string name="glasses_state">眼镜：%1$s</string>
+    <string name="glasses_idle">已停止</string>
+    <string name="glasses_connecting">连接中…</string>
+    <string name="glasses_ready">显示中</string>
+    <string name="glasses_error">错误</string>
+    <string name="start_display_button">开始显示</string>
+    <string name="stop_display_button">停止显示</string>
+    <string name="section_current_slide">当前幻灯片</string>
+    <string name="no_deck_yet">尚未收到幻灯片</string>
+    <string name="deck_position">%1$s  %2$d / %3$d</string>
+    <string name="phone_next_slide">下一张幻灯片</string>
+    <string name="render_timing">显示更新（%1$s，%2$.1f KB）：生成图像 %3$d ms，发送到眼镜 %4$d ms</string>
+    <string name="render_timing_from_input">从手势到显示：%1$d ms</string>
+    <string name="quit_button">退出</string>
+
+    <string name="prev_button">上一张</string>
+    <string name="next_button">下一张</string>
+
+    <string name="glasses_pc_disconnected">电脑未连接</string>
+
+    <string name="message_deck_received">已收到 %1$d 张幻灯片</string>
+    <string name="message_pc_not_connected">未连接电脑，无法切换幻灯片</string>
+    <string name="message_server_error">无法等待电脑连接：%1$s</string>
+    <string name="message_connecting_glasses">正在连接眼镜</string>
+    <string name="message_glasses_ready">可以在眼镜上显示了</string>
+    <string name="message_glasses_disconnected">与眼镜的连接已断开</string>
+    <string name="message_display_closed">眼镜的显示已关闭</string>
+    <string name="message_mock_failed">无法准备虚拟眼镜</string>
+    <string name="message_reconnecting_glasses">与眼镜的连接已断开，正在重新连接</string>
+    <string name="message_inputs_failed">无法接收手势：%1$s</string>
+    <string name="glasses_controls_hint">眼镜操作：拇指在食指上向右滑动切到下一张，向左滑动回到上一张。捏合可以播放或暂停当前幻灯片中的视频。</string>
+    <string name="display_pattern_label">眼镜的显示方式</string>
+    <string name="display_pattern_two_slides">方式 1：当前幻灯片和下一张幻灯片</string>
+    <string name="display_pattern_focus">方式 2：放大当前幻灯片，下一张只显示标题</string>
+    <string name="glasses_next_title">下一张：%1$s</string>
+    <string name="glasses_untitled_slide">第 %1$d 张</string>
+    <string name="glasses_last_slide">无（最后一张）</string>
+
+    <string name="pc_warning_deck_load_failed">无法读取幻灯片</string>
+    <string name="pc_warning_slide_number_unreadable">无法读取幻灯片编号</string>
+    <string name="pc_warning_navigation_failed">无法切换幻灯片</string>
+
+    <string name="error_version_mismatch">版本不一致（电脑：%1$d，手机：%2$d）</string>
+    <string name="error_wrong_pin">PIN 不正确</string>
+</resources>

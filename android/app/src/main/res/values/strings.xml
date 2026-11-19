@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Default (English) strings. Each language has its own folder: values-ja, values-zh, values-ko,
+  values-si, values-ms, values-ta. To add a language, copy this file into values-<code> and
+  translate it; the app's language list is generated from these folders.
+-->
+<resources>
+    <string name="app_name" translatable="false">PresentationGlass</string>
+
+    <!-- Foreground service notification -->
+    <string name="notification_channel">Presenting</string>
+    <string name="notification_text">Relaying between the PC and the glasses</string>
+
+    <!-- Home screen -->
+    <string name="checking_permissions">Checking permissions…</string>
+    <string name="bluetooth_permission_required">Bluetooth permission is required</string>
+    <string name="section_register">1. Connect the glasses to the app</string>
+    <string name="registration_state">Registration: %1$s</string>
+    <string name="registration_registered">Registered</string>
+    <string name="registration_available">Not registered</string>
+    <string name="registration_unavailable">Unavailable (check the Meta AI app)</string>
+    <string name="register_button">Register glasses</string>
+    <string name="unregister_button">Unregister</string>
+    <string name="phone_preview_switch">Try without glasses (virtual glasses)</string>
+    <string name="phone_preview_hint">Run \"adb forward tcp:9000 tcp:9000\" on the PC and open %1$s in Chrome to see the glasses screen.</string>
+    <string name="section_keyboard">2. Use as the PC\'s Bluetooth keyboard</string>
+    <string name="keyboard_explanation">The phone becomes a Bluetooth keyboard for the PC. Swipes on the Neural Band reach the PC as real arrow keys.</string>
+    <string name="keyboard_status">Status: %1$s</string>
+    <string name="keyboard_unavailable">Unavailable</string>
+    <string name="keyboard_registering">Preparing…</string>
+    <string name="keyboard_waiting">Waiting for the PC to connect</string>
+    <string name="keyboard_connected">Connected to the PC</string>
+    <string name="keyboard_pairing_steps">A new PC needs to pair once. Press the button below, then in the PC\'s Bluetooth settings choose \"Add device\" and select PresentationGlass.</string>
+    <string name="keyboard_discoverable_button">Make visible to the PC</string>
+    <string name="section_pc">3. Connect the Chrome extension on the PC</string>
+    <string name="pc_instructions">Enter these values in the Chrome extension.</string>
+    <string name="pin_label">PIN: %1$s</string>
+    <string name="port_label">Port: %1$d</string>
+    <string name="ip_label">IP: %1$s</string>
+    <string name="no_ip_address">No IP address found. Turn on tethering or Wi-Fi.</string>
+    <string name="pc_connected">PC: connected</string>
+    <string name="pc_disconnected">PC: not connected</string>
+    <string name="refresh_ip_button">Refresh IP</string>
+    <string name="change_pin_button">Change PIN</string>
+    <string name="section_glasses">4. Show on the glasses</string>
+    <string name="glasses_state">Glasses: %1$s</string>
+    <string name="glasses_idle">Stopped</string>
+    <string name="glasses_connecting">Connecting…</string>
+    <string name="glasses_ready">Showing</string>
+    <string name="glasses_error">Error</string>
+    <string name="start_display_button">Start display</string>
+    <string name="stop_display_button">Stop display</string>
+    <string name="section_current_slide">Current slide</string>
+    <string name="no_deck_yet">No slides received yet</string>
+    <string name="deck_position">%1$s  %2$d / %3$d</string>
+    <string name="phone_next_slide">Next slide</string>
+    <string name="render_timing">Display update (%1$s, %2$.1f KB): compose %3$d ms, send to glasses %4$d ms</string>
+    <string name="render_timing_from_input">From gesture to display: %1$d ms</string>
+    <string name="quit_button">Quit</string>
+
+    <!-- Shown on the phone and on the glasses -->
+    <string name="prev_button">Previous</string>
+    <string name="next_button">Next</string>
+
+    <!-- Glasses (drawn into the slide image, so kept very short) -->
+    <string name="glasses_pc_disconnected">PC not connected</string>
+
+    <!-- Status messages -->
+    <string name="message_deck_received">Slides received: %1$d</string>
+    <string name="message_pc_not_connected">Not connected to the PC, so the slides cannot move</string>
+    <string name="message_server_error">Cannot wait for connections from the PC: %1$s</string>
+    <string name="message_connecting_glasses">Connecting to the glasses</string>
+    <string name="message_glasses_ready">Ready to show on the glasses</string>
+    <string name="message_glasses_disconnected">Lost the connection to the glasses</string>
+    <string name="message_display_closed">The glasses display was closed</string>
+    <string name="message_mock_failed">Could not set up the virtual glasses</string>
+    <string name="message_reconnecting_glasses">Lost the connection to the glasses. Reconnecting</string>
+    <string name="message_inputs_failed">Cannot receive gestures: %1$s</string>
+    <string name="glasses_controls_hint">Glasses controls: slide your thumb right on your index finger for the next slide, left for the previous slide. Pinch to play or pause the video on the current slide.</string>
+    <string name="display_pattern_label">Glasses layout</string>
+    <string name="display_pattern_two_slides">Pattern 1: current slide and next slide</string>
+    <string name="display_pattern_focus">Pattern 2: large current slide, next slide title only</string>
+    <string name="glasses_next_title">Next: %1$s</string>
+    <string name="glasses_untitled_slide">Slide %1$d</string>
+    <string name="glasses_last_slide">none (last slide)</string>
+
+    <!-- Problems reported by the PC, shown on the glasses -->
+    <string name="pc_warning_deck_load_failed">Cannot load the slides</string>
+    <string name="pc_warning_slide_number_unreadable">Cannot read the slide number</string>
+    <string name="pc_warning_navigation_failed">Cannot move the slides</string>
+
+    <!-- Sent to the PC when a connection is refused -->
+    <string name="error_version_mismatch">Version mismatch (PC: %1$d, phone: %2$d)</string>
+    <string name="error_wrong_pin">Wrong PIN</string>
+</resources>

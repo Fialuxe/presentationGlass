@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PresentationGlass</title>
+  <style>
+    body { font: 13px/1.5 system-ui, sans-serif; width: 300px; margin: 12px; color: #222; }
+    h1 { font-size: 15px; margin: 0 0 8px; }
+    label { display: block; margin-top: 6px; }
+    input { width: 100%; box-sizing: border-box; padding: 4px; font: inherit; }
+    .row { display: flex; gap: 6px; margin-top: 10px; }
+    button { flex: 1; padding: 6px; font: inherit; cursor: pointer; }
+    #status { margin-top: 10px; font-weight: bold; }
+    #detail { color: #555; }
+    #logs { margin-top: 8px; font-size: 11px; color: #666; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>PresentationGlass</h1>
+  <!-- Texts come from lib/i18n.js (data-i18n keys), in the browser's language. -->
+  <label data-i18n="popup_host"><input id="host" data-i18n-placeholder="popup_host_placeholder"></label>
+  <label data-i18n="popup_port"><input id="port"></label>
+  <label data-i18n="popup_pin"><input id="pin" maxlength="4"></label>
+  <div class="row"><button id="save" data-i18n="popup_save"></button></div>
+  <div id="status">…</div>
+  <div id="detail"></div>
+  <div class="row">
+    <button id="reload" data-i18n="popup_reload"></button>
+    <button id="timer" data-i18n="popup_timer"></button>
+  </div>
+  <div id="logs"></div>
+  <script src="lib/protocol.js"></script>
+  <script src="lib/i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

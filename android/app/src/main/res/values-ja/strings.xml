@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Foreground service notification -->
+    <string name="notification_channel">発表中</string>
+    <string name="notification_text">PC とグラスの中継をしています</string>
+
+    <!-- Home screen -->
+    <string name="checking_permissions">権限を確認しています…</string>
+    <string name="bluetooth_permission_required">Bluetooth の権限が必要です</string>
+    <string name="section_register">1. グラスとアプリをつなぐ</string>
+    <string name="registration_state">登録状態: %1$s</string>
+    <string name="registration_registered">登録済み</string>
+    <string name="registration_available">未登録</string>
+    <string name="registration_unavailable">利用できません（Meta AI アプリを確認）</string>
+    <string name="register_button">グラスを登録</string>
+    <string name="unregister_button">登録を解除</string>
+    <string name="phone_preview_switch">グラスなしで試す（仮想グラス）</string>
+    <string name="phone_preview_hint">PC で「adb forward tcp:9000 tcp:9000」を実行し、Chrome で %1$s を開くと、グラスの画面を確認できます。</string>
+    <string name="section_keyboard">2. PC の Bluetooth キーボードとして使う</string>
+    <string name="keyboard_explanation">スマホを PC の Bluetooth キーボードにします。Neural Band で滑らせる操作が、本物の矢印キーとして PC に届きます。</string>
+    <string name="keyboard_status">状態: %1$s</string>
+    <string name="keyboard_unavailable">使えません</string>
+    <string name="keyboard_registering">準備しています…</string>
+    <string name="keyboard_waiting">PC からの接続を待っています</string>
+    <string name="keyboard_connected">PC と接続中</string>
+    <string name="keyboard_pairing_steps">初めての PC では、ペアリングが 1 回だけ必要です。下のボタンを押してから、PC の Bluetooth の設定で「デバイスを追加」を選び、PresentationGlass を選びます。</string>
+    <string name="keyboard_discoverable_button">PC から見つけられるようにする</string>
+    <string name="section_pc">3. PC の Chrome 拡張をつなぐ</string>
+    <string name="pc_instructions">Chrome 拡張に、次の値を入力します。</string>
+    <string name="pin_label">PIN: %1$s</string>
+    <string name="port_label">ポート: %1$d</string>
+    <string name="ip_label">IP: %1$s</string>
+    <string name="no_ip_address">IP アドレスが見つかりません。テザリングか Wi-Fi をオンにしてください。</string>
+    <string name="pc_connected">PC: 接続中</string>
+    <string name="pc_disconnected">PC: 未接続</string>
+    <string name="refresh_ip_button">IP を再取得</string>
+    <string name="change_pin_button">PIN を変える</string>
+    <string name="section_glasses">4. グラスに表示する</string>
+    <string name="glasses_state">グラス: %1$s</string>
+    <string name="glasses_idle">停止中</string>
+    <string name="glasses_connecting">接続中…</string>
+    <string name="glasses_ready">表示中</string>
+    <string name="glasses_error">エラー</string>
+    <string name="start_display_button">表示を始める</string>
+    <string name="stop_display_button">表示を止める</string>
+    <string name="section_current_slide">いまのスライド</string>
+    <string name="no_deck_yet">まだスライドを受け取っていません</string>
+    <string name="deck_position">%1$s  %2$d / %3$d</string>
+    <string name="phone_next_slide">次のスライド</string>
+    <string name="render_timing">表示の更新（%1$s, %2$.1f KB）: 画像を作る %3$d ms、グラスへ送る %4$d ms</string>
+    <string name="render_timing_from_input">指の操作から表示まで: %1$d ms</string>
+    <string name="quit_button">終了する</string>
+
+    <!-- Shown on the phone and on the glasses -->
+    <string name="prev_button">前へ</string>
+    <string name="next_button">次へ</string>
+
+    <!-- Glasses (drawn into the slide image, so kept very short) -->
+    <string name="glasses_pc_disconnected">PC 未接続</string>
+
+    <!-- Status messages -->
+    <string name="message_deck_received">スライド %1$d 枚を受け取りました</string>
+    <string name="message_pc_not_connected">PC とつながっていないので、スライドを動かせません</string>
+    <string name="message_server_error">PC からの接続を待ち受けられません: %1$s</string>
+    <string name="message_connecting_glasses">グラスに接続しています</string>
+    <string name="message_glasses_ready">グラスに表示できます</string>
+    <string name="message_glasses_disconnected">グラスとの接続が切れました</string>
+    <string name="message_display_closed">グラスの表示が閉じられました</string>
+    <string name="message_mock_failed">仮想グラスを用意できませんでした</string>
+    <string name="message_reconnecting_glasses">グラスとの接続が切れたので、つなぎ直しています</string>
+    <string name="message_inputs_failed">指の操作を受け取れません: %1$s</string>
+    <string name="glasses_controls_hint">グラスの操作: 親指を人差し指の上で右に滑らせると次のスライド、左に滑らせると前のスライドに動きます。つまむと、今のスライドの動画を再生・一時停止します。</string>
+    <string name="display_pattern_label">グラスの表示の形</string>
+    <string name="display_pattern_two_slides">パターン 1: 今のスライドと次のスライド</string>
+    <string name="display_pattern_focus">パターン 2: 今のスライドを大きく、次は見出しだけ</string>
+    <string name="glasses_next_title">次: %1$s</string>
+    <string name="glasses_untitled_slide">スライド %1$d</string>
+    <string name="glasses_last_slide">なし（最後のスライド）</string>
+
+    <!-- Problems reported by the PC, shown on the glasses -->
+    <string name="pc_warning_deck_load_failed">スライドを読み込めません</string>
+    <string name="pc_warning_slide_number_unreadable">スライド番号を読み取れません</string>
+    <string name="pc_warning_navigation_failed">スライドを動かせません</string>
+
+    <!-- Sent to the PC when a connection is refused -->
+    <string name="error_version_mismatch">バージョンが合いません（PC: %1$d、スマホ: %2$d）</string>
+    <string name="error_wrong_pin">PIN が違います</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">ඉදිරිපත් කරමින්</string>
+    <string name="notification_text">පරිගණකය සහ කණ්ණාඩිය අතර සම්බන්ධය පවත්වයි</string>
+
+    <string name="checking_permissions">අවසර පරීක්ෂා කරමින්…</string>
+    <string name="bluetooth_permission_required">Bluetooth අවසරය අවශ්‍යයි</string>
+    <string name="section_register">1. කණ්ණාඩිය යෙදුමට සම්බන්ධ කරන්න</string>
+    <string name="registration_state">ලියාපදිංචි තත්ත්වය: %1$s</string>
+    <string name="registration_registered">ලියාපදිංචි කර ඇත</string>
+    <string name="registration_available">ලියාපදිංචි කර නැත</string>
+    <string name="registration_unavailable">භාවිත කළ නොහැක (Meta AI යෙදුම පරීක්ෂා කරන්න)</string>
+    <string name="register_button">කණ්ණාඩිය ලියාපදිංචි කරන්න</string>
+    <string name="unregister_button">ලියාපදිංචිය ඉවත් කරන්න</string>
+    <string name="phone_preview_switch">කණ්ණාඩිය නැතිව උත්සාහ කරන්න (අතථ්‍ය කණ්ණාඩිය)</string>
+    <string name="phone_preview_hint">පරිගණකයේ \"adb forward tcp:9000 tcp:9000\" ධාවනය කර, Chrome හි %1$s විවෘත කළ විට කණ්ණාඩියේ තිරය දැකිය හැක.</string>
+    <string name="section_keyboard">2. පරිගණකයේ Bluetooth යතුරු පුවරුවක් ලෙස භාවිත කරන්න</string>
+    <string name="keyboard_explanation">දුරකථනය පරිගණකයට Bluetooth යතුරු පුවරුවක් බවට පත් වේ. Neural Band මත ස්වයිප් කිරීම් සැබෑ ඊතල යතුරු ලෙස පරිගණකයට ළඟා වේ.</string>
+    <string name="keyboard_status">තත්ත්වය: %1$s</string>
+    <string name="keyboard_unavailable">භාවිත කළ නොහැක</string>
+    <string name="keyboard_registering">සූදානම් වෙමින්…</string>
+    <string name="keyboard_waiting">පරිගණකය සම්බන්ධ වන තෙක් රැඳී සිටියි</string>
+    <string name="keyboard_connected">පරිගණකයට සම්බන්ධයි</string>
+    <string name="keyboard_pairing_steps">නව පරිගණකයක් එක් වරක් යුගල කළ යුතුය. පහත බොත්තම ඔබා, පරිගණකයේ Bluetooth සැකසුම් තුළ \"උපාංගය එක් කරන්න\" තෝරා, PresentationGlass තෝරන්න.</string>
+    <string name="keyboard_discoverable_button">පරිගණකයට සොයාගත හැකි කරන්න</string>
+    <string name="section_pc">3. පරිගණකයේ Chrome දිගුව සම්බන්ධ කරන්න</string>
+    <string name="pc_instructions">Chrome දිගුවට පහත අගයන් ඇතුළත් කරන්න.</string>
+    <string name="pin_label">PIN: %1$s</string>
+    <string name="port_label">තොට: %1$d</string>
+    <string name="ip_label">IP: %1$s</string>
+    <string name="no_ip_address">IP ලිපිනයක් හමු නොවීය. ටෙදරින් හෝ Wi-Fi ක්‍රියාත්මක කරන්න.</string>
+    <string name="pc_connected">පරිගණකය: සම්බන්ධයි</string>
+    <string name="pc_disconnected">පරිගණකය: සම්බන්ධ නැත</string>
+    <string name="refresh_ip_button">IP නැවත ලබා ගන්න</string>
+    <string name="change_pin_button">PIN වෙනස් කරන්න</string>
+    <string name="section_glasses">4. කණ්ණාඩියේ පෙන්වන්න</string>
+    <string name="glasses_state">කණ්ණාඩිය: %1$s</string>
+    <string name="glasses_idle">නවතා ඇත</string>
+    <string name="glasses_connecting">සම්බන්ධ වෙමින්…</string>
+    <string name="glasses_ready">පෙන්වමින්</string>
+    <string name="glasses_error">දෝෂයකි</string>
+    <string name="start_display_button">පෙන්වීම අරඹන්න</string>
+    <string name="stop_display_button">පෙන්වීම නවත්වන්න</string>
+    <string name="section_current_slide">වත්මන් ස්ලයිඩය</string>
+    <string name="no_deck_yet">තවම ස්ලයිඩ ලැබී නැත</string>
+    <string name="deck_position">%1$s  %2$d / %3$d</string>
+    <string name="phone_next_slide">ඊළඟ ස්ලයිඩය</string>
+    <string name="render_timing">පෙන්වීම යාවත්කාලීන කිරීම (%1$s, %2$.1f KB): රූපය සෑදීම %3$d ms, කණ්ණාඩියට යැවීම %4$d ms</string>
+    <string name="render_timing_from_input">ඉඟියේ සිට පෙන්වීම දක්වා: %1$d ms</string>
+    <string name="quit_button">ඉවත් වන්න</string>
+
+    <string name="prev_button">පෙර</string>
+    <string name="next_button">ඊළඟ</string>
+
+    <string name="glasses_pc_disconnected">පරිගණකය සම්බන්ධ නැත</string>
+
+    <string name="message_deck_received">ස්ලයිඩ %1$d ක් ලැබුණි</string>
+    <string name="message_pc_not_connected">පරිගණකයට සම්බන්ධ නැති නිසා ස්ලයිඩ මාරු කළ නොහැක</string>
+    <string name="message_server_error">පරිගණකයෙන් සම්බන්ධතා සඳහා රැඳී සිටිය නොහැක: %1$s</string>
+    <string name="message_connecting_glasses">කණ්ණාඩියට සම්බන්ධ වෙමින්</string>
+    <string name="message_glasses_ready">කණ්ණාඩියේ පෙන්වීමට සූදානම්</string>
+    <string name="message_glasses_disconnected">කණ්ණාඩිය සමඟ සම්බන්ධය බිඳී ගියේය</string>
+    <string name="message_display_closed">කණ්ණාඩියේ පෙන්වීම වසා දමන ලදී</string>
+    <string name="message_mock_failed">අතථ්‍ය කණ්ණාඩිය සූදානම් කළ නොහැකි විය</string>
+    <string name="message_reconnecting_glasses">කණ්ණාඩිය සමඟ සම්බන්ධය බිඳී ගියේය. නැවත සම්බන්ධ වෙමින්</string>
+    <string name="message_inputs_failed">ඉඟි ලබා ගත නොහැක: %1$s</string>
+    <string name="glasses_controls_hint">කණ්ණාඩි පාලනය: මාපටැඟිල්ල දබරැඟිල්ල මත දකුණට ස්වයිප් කළ විට ඊළඟ ස්ලයිඩය, වමට ස්වයිප් කළ විට පෙර ස්ලයිඩය. වත්මන් ස්ලයිඩයේ වීඩියෝව වාදනය කිරීමට හෝ විරාම කිරීමට ඇඟිලි තද කරන්න.</string>
+    <string name="display_pattern_label">කණ්ණාඩියේ පෙනුම</string>
+    <string name="display_pattern_two_slides">රටාව 1: වත්මන් ස්ලයිඩය සහ ඊළඟ ස්ලයිඩය</string>
+    <string name="display_pattern_focus">රටාව 2: වත්මන් ස්ලයිඩය විශාලව, ඊළඟ එකේ මාතෘකාව පමණි</string>
+    <string name="glasses_next_title">ඊළඟ: %1$s</string>
+    <string name="glasses_untitled_slide">ස්ලයිඩය %1$d</string>
+    <string name="glasses_last_slide">නැත (අවසාන ස්ලයිඩය)</string>
+
+    <string name="pc_warning_deck_load_failed">ස්ලයිඩ පූරණය කළ නොහැක</string>
+    <string name="pc_warning_slide_number_unreadable">ස්ලයිඩ අංකය කියවිය නොහැක</string>
+    <string name="pc_warning_navigation_failed">ස්ලයිඩ මාරු කළ නොහැක</string>
+
+    <string name="error_version_mismatch">අනුවාදය නොගැළපේ (පරිගණකය: %1$d, දුරකථනය: %2$d)</string>
+    <string name="error_wrong_pin">PIN වැරදියි</string>
+</resources>

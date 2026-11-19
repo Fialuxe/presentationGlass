@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">발표 중</string>
+    <string name="notification_text">PC와 안경 사이를 중계하고 있습니다</string>
+
+    <string name="checking_permissions">권한을 확인하는 중…</string>
+    <string name="bluetooth_permission_required">블루투스 권한이 필요합니다</string>
+    <string name="section_register">1. 안경과 앱 연결</string>
+    <string name="registration_state">등록 상태: %1$s</string>
+    <string name="registration_registered">등록됨</string>
+    <string name="registration_available">등록 안 됨</string>
+    <string name="registration_unavailable">사용할 수 없음 (Meta AI 앱을 확인하세요)</string>
+    <string name="register_button">안경 등록</string>
+    <string name="unregister_button">등록 해제</string>
+    <string name="phone_preview_switch">안경 없이 사용해 보기 (가상 안경)</string>
+    <string name="phone_preview_hint">PC에서 \"adb forward tcp:9000 tcp:9000\"을 실행하고 Chrome에서 %1$s을(를) 열면 안경 화면을 볼 수 있습니다.</string>
+    <string name="section_keyboard">2. PC의 블루투스 키보드로 사용</string>
+    <string name="keyboard_explanation">휴대폰을 PC의 블루투스 키보드로 만듭니다. Neural Band에서 밀면 PC에 실제 화살표 키로 전달됩니다.</string>
+    <string name="keyboard_status">상태: %1$s</string>
+    <string name="keyboard_unavailable">사용할 수 없음</string>
+    <string name="keyboard_registering">준비 중…</string>
+    <string name="keyboard_waiting">PC의 연결을 기다리는 중</string>
+    <string name="keyboard_connected">PC와 연결됨</string>
+    <string name="keyboard_pairing_steps">처음 쓰는 PC는 한 번만 페어링하면 됩니다. 아래 버튼을 누른 뒤, PC의 블루투스 설정에서 \"장치 추가\"를 고르고 PresentationGlass를 선택하세요.</string>
+    <string name="keyboard_discoverable_button">PC에서 찾을 수 있게 하기</string>
+    <string name="section_pc">3. PC의 Chrome 확장 프로그램 연결</string>
+    <string name="pc_instructions">Chrome 확장 프로그램에 다음 값을 입력하세요.</string>
+    <string name="pin_label">PIN: %1$s</string>
+    <string name="port_label">포트: %1$d</string>
+    <string name="ip_label">IP: %1$s</string>
+    <string name="no_ip_address">IP 주소를 찾을 수 없습니다. 테더링이나 Wi-Fi를 켜세요.</string>
+    <string name="pc_connected">PC: 연결됨</string>
+    <string name="pc_disconnected">PC: 연결 안 됨</string>
+    <string name="refresh_ip_button">IP 다시 가져오기</string>
+    <string name="change_pin_button">PIN 바꾸기</string>
+    <string name="section_glasses">4. 안경에 표시</string>
+    <string name="glasses_state">안경: %1$s</string>
+    <string name="glasses_idle">정지됨</string>
+    <string name="glasses_connecting">연결 중…</string>
+    <string name="glasses_ready">표시 중</string>
+    <string name="glasses_error">오류</string>
+    <string name="start_display_button">표시 시작</string>
+    <string name="stop_display_button">표시 중지</string>
+    <string name="section_current_slide">현재 슬라이드</string>
+    <string name="no_deck_yet">아직 슬라이드를 받지 않았습니다</string>
+    <string name="deck_position">%1$s  %2$d / %3$d</string>
+    <string name="phone_next_slide">다음 슬라이드</string>
+    <string name="render_timing">표시 갱신 (%1$s, %2$.1f KB): 이미지 생성 %3$d ms, 안경으로 전송 %4$d ms</string>
+    <string name="render_timing_from_input">손동작부터 표시까지: %1$d ms</string>
+    <string name="quit_button">종료</string>
+
+    <string name="prev_button">이전</string>
+    <string name="next_button">다음</string>
+
+    <string name="glasses_pc_disconnected">PC 연결 안 됨</string>
+
+    <string name="message_deck_received">슬라이드 %1$d장을 받았습니다</string>
+    <string name="message_pc_not_connected">PC와 연결되지 않아 슬라이드를 넘길 수 없습니다</string>
+    <string name="message_server_error">PC의 연결을 기다릴 수 없습니다: %1$s</string>
+    <string name="message_connecting_glasses">안경에 연결하는 중</string>
+    <string name="message_glasses_ready">안경에 표시할 수 있습니다</string>
+    <string name="message_glasses_disconnected">안경과의 연결이 끊어졌습니다</string>
+    <string name="message_display_closed">안경 표시가 닫혔습니다</string>
+    <string name="message_mock_failed">가상 안경을 준비하지 못했습니다</string>
+    <string name="message_reconnecting_glasses">안경과의 연결이 끊어져 다시 연결하는 중입니다</string>
+    <string name="message_inputs_failed">손동작을 받을 수 없습니다: %1$s</string>
+    <string name="glasses_controls_hint">안경 조작: 엄지를 검지 위에서 오른쪽으로 밀면 다음 슬라이드, 왼쪽으로 밀면 이전 슬라이드로 갑니다. 집으면 현재 슬라이드의 동영상을 재생하거나 일시 정지합니다.</string>
+    <string name="display_pattern_label">안경 표시 방식</string>
+    <string name="display_pattern_two_slides">패턴 1: 현재 슬라이드와 다음 슬라이드</string>
+    <string name="display_pattern_focus">패턴 2: 현재 슬라이드를 크게, 다음은 제목만</string>
+    <string name="glasses_next_title">다음: %1$s</string>
+    <string name="glasses_untitled_slide">슬라이드 %1$d</string>
+    <string name="glasses_last_slide">없음 (마지막 슬라이드)</string>
+
+    <string name="pc_warning_deck_load_failed">슬라이드를 불러올 수 없습니다</string>
+    <string name="pc_warning_slide_number_unreadable">슬라이드 번호를 읽을 수 없습니다</string>
+    <string name="pc_warning_navigation_failed">슬라이드를 넘길 수 없습니다</string>
+
+    <string name="error_version_mismatch">버전이 맞지 않습니다 (PC: %1$d, 휴대폰: %2$d)</string>
+    <string name="error_wrong_pin">PIN이 틀렸습니다</string>
+</resources>

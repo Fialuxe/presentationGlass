@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">Sedang membentang</string>
+    <string name="notification_text">Menghubungkan PC dengan cermin mata</string>
+
+    <string name="checking_permissions">Menyemak kebenaran…</string>
+    <string name="bluetooth_permission_required">Kebenaran Bluetooth diperlukan</string>
+    <string name="section_register">1. Sambungkan cermin mata kepada aplikasi</string>
+    <string name="registration_state">Pendaftaran: %1$s</string>
+    <string name="registration_registered">Berdaftar</string>
+    <string name="registration_available">Belum berdaftar</string>
+    <string name="registration_unavailable">Tidak tersedia (semak aplikasi Meta AI)</string>
+    <string name="register_button">Daftar cermin mata</string>
+    <string name="unregister_button">Batal pendaftaran</string>
+    <string name="phone_preview_switch">Cuba tanpa cermin mata (cermin mata maya)</string>
+    <string name="phone_preview_hint">Jalankan \"adb forward tcp:9000 tcp:9000\" pada PC dan buka %1$s dalam Chrome untuk melihat skrin cermin mata.</string>
+    <string name="section_keyboard">2. Guna sebagai papan kekunci Bluetooth PC</string>
+    <string name="keyboard_explanation">Telefon menjadi papan kekunci Bluetooth untuk PC. Leretan pada Neural Band sampai ke PC sebagai kekunci anak panah sebenar.</string>
+    <string name="keyboard_status">Status: %1$s</string>
+    <string name="keyboard_unavailable">Tidak tersedia</string>
+    <string name="keyboard_registering">Sedang bersedia…</string>
+    <string name="keyboard_waiting">Menunggu PC menyambung</string>
+    <string name="keyboard_connected">Disambungkan ke PC</string>
+    <string name="keyboard_pairing_steps">PC baharu perlu dipasangkan sekali. Tekan butang di bawah, kemudian dalam tetapan Bluetooth PC pilih \"Tambah peranti\" dan pilih PresentationGlass.</string>
+    <string name="keyboard_discoverable_button">Jadikan kelihatan kepada PC</string>
+    <string name="section_pc">3. Sambungkan sambungan Chrome pada PC</string>
+    <string name="pc_instructions">Masukkan nilai berikut dalam sambungan Chrome.</string>
+    <string name="pin_label">PIN: %1$s</string>
+    <string name="port_label">Port: %1$d</string>
+    <string name="ip_label">IP: %1$s</string>
+    <string name="no_ip_address">Alamat IP tidak ditemui. Hidupkan penambatan atau Wi-Fi.</string>
+    <string name="pc_connected">PC: disambungkan</string>
+    <string name="pc_disconnected">PC: tidak disambungkan</string>
+    <string name="refresh_ip_button">Muat semula IP</string>
+    <string name="change_pin_button">Tukar PIN</string>
+    <string name="section_glasses">4. Papar pada cermin mata</string>
+    <string name="glasses_state">Cermin mata: %1$s</string>
+    <string name="glasses_idle">Dihentikan</string>
+    <string name="glasses_connecting">Menyambung…</string>
+    <string name="glasses_ready">Sedang dipaparkan</string>
+    <string name="glasses_error">Ralat</string>
+    <string name="start_display_button">Mula paparan</string>
+    <string name="stop_display_button">Henti paparan</string>
+    <string name="section_current_slide">Slaid semasa</string>
+    <string name="no_deck_yet">Belum menerima slaid</string>
+    <string name="deck_position">%1$s  %2$d / %3$d</string>
+    <string name="phone_next_slide">Slaid seterusnya</string>
+    <string name="render_timing">Kemas kini paparan (%1$s, %2$.1f KB): hasilkan imej %3$d ms, hantar ke cermin mata %4$d ms</string>
+    <string name="render_timing_from_input">Dari gerak isyarat ke paparan: %1$d ms</string>
+    <string name="quit_button">Keluar</string>
+
+    <string name="prev_button">Sebelum</string>
+    <string name="next_button">Seterusnya</string>
+
+    <string name="glasses_pc_disconnected">PC tidak disambung</string>
+
+    <string name="message_deck_received">Menerima %1$d slaid</string>
+    <string name="message_pc_not_connected">Tidak disambungkan ke PC, jadi slaid tidak boleh dialihkan</string>
+    <string name="message_server_error">Tidak dapat menunggu sambungan daripada PC: %1$s</string>
+    <string name="message_connecting_glasses">Menyambung ke cermin mata</string>
+    <string name="message_glasses_ready">Sedia untuk dipaparkan pada cermin mata</string>
+    <string name="message_glasses_disconnected">Sambungan ke cermin mata terputus</string>
+    <string name="message_display_closed">Paparan cermin mata telah ditutup</string>
+    <string name="message_mock_failed">Tidak dapat menyediakan cermin mata maya</string>
+    <string name="message_reconnecting_glasses">Sambungan ke cermin mata terputus. Menyambung semula</string>
+    <string name="message_inputs_failed">Tidak dapat menerima gerak isyarat: %1$s</string>
+    <string name="glasses_controls_hint">Kawalan cermin mata: leret ibu jari ke kanan pada jari telunjuk untuk slaid seterusnya, ke kiri untuk slaid sebelumnya. Cubit untuk main atau jeda video pada slaid semasa.</string>
+    <string name="display_pattern_label">Susun atur cermin mata</string>
+    <string name="display_pattern_two_slides">Corak 1: slaid semasa dan slaid seterusnya</string>
+    <string name="display_pattern_focus">Corak 2: slaid semasa dibesarkan, slaid seterusnya tajuk sahaja</string>
+    <string name="glasses_next_title">Seterusnya: %1$s</string>
+    <string name="glasses_untitled_slide">Slaid %1$d</string>
+    <string name="glasses_last_slide">tiada (slaid terakhir)</string>
+
+    <string name="pc_warning_deck_load_failed">Tidak dapat memuatkan slaid</string>
+    <string name="pc_warning_slide_number_unreadable">Tidak dapat membaca nombor slaid</string>
+    <string name="pc_warning_navigation_failed">Tidak dapat mengalihkan slaid</string>
+
+    <string name="error_version_mismatch">Versi tidak sepadan (PC: %1$d, telefon: %2$d)</string>
+    <string name="error_wrong_pin">PIN salah</string>
+</resources>

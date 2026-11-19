@@ -1,0 +1,12 @@
+{
+  "name": "presentationglass-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node run.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.49.1",
+    "ws": "8.18.0"
+  }
+}

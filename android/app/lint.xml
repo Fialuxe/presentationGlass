@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Library versions follow Meta's official DisplayAccess sample (meta-wearables-dat-android),
+  so that the Wearables Device Access Toolkit is used with the versions Meta tested.
+  Update them together with that sample, not one by one.
+-->
+<lint>
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+</lint>

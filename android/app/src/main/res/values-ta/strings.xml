@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">வழங்கிக்கொண்டிருக்கிறது</string>
+    <string name="notification_text">கணினிக்கும் கண்ணாடிக்கும் இடையே தொடர்பை இணைக்கிறது</string>
+
+    <string name="checking_permissions">அனுமதிகளைச் சரிபார்க்கிறது…</string>
+    <string name="bluetooth_permission_required">Bluetooth அனுமதி தேவை</string>
+    <string name="section_register">1. கண்ணாடியை ஆப்புடன் இணைக்கவும்</string>
+    <string name="registration_state">பதிவு நிலை: %1$s</string>
+    <string name="registration_registered">பதிவுசெய்யப்பட்டது</string>
+    <string name="registration_available">பதிவுசெய்யப்படவில்லை</string>
+    <string name="registration_unavailable">கிடைக்கவில்லை (Meta AI ஆப்பைச் சரிபார்க்கவும்)</string>
+    <string name="register_button">கண்ணாடியைப் பதிவுசெய்</string>
+    <string name="unregister_button">பதிவை நீக்கு</string>
+    <string name="phone_preview_switch">கண்ணாடி இல்லாமல் முயற்சிக்கவும் (மெய்நிகர் கண்ணாடி)</string>
+    <string name="phone_preview_hint">கணினியில் \"adb forward tcp:9000 tcp:9000\" ஐ இயக்கி, Chrome இல் %1$s ஐத் திறந்தால் கண்ணாடித் திரையைக் காணலாம்.</string>
+    <string name="section_keyboard">2. கணினியின் Bluetooth விசைப்பலகையாகப் பயன்படுத்தவும்</string>
+    <string name="keyboard_explanation">தொலைபேசி கணினிக்கான Bluetooth விசைப்பலகையாக மாறும். Neural Band இல் செய்யும் நகர்த்தல்கள் உண்மையான அம்புக்குறி விசைகளாகக் கணினியை அடையும்.</string>
+    <string name="keyboard_status">நிலை: %1$s</string>
+    <string name="keyboard_unavailable">கிடைக்கவில்லை</string>
+    <string name="keyboard_registering">தயாராகிறது…</string>
+    <string name="keyboard_waiting">கணினி இணைவதற்காகக் காத்திருக்கிறது</string>
+    <string name="keyboard_connected">கணினியுடன் இணைக்கப்பட்டுள்ளது</string>
+    <string name="keyboard_pairing_steps">புதிய கணினியை ஒருமுறை இணைக்க வேண்டும். கீழே உள்ள பொத்தானை அழுத்தி, கணினியின் Bluetooth அமைப்புகளில் \"சாதனத்தைச் சேர்\" என்பதைத் தேர்ந்தெடுத்து, PresentationGlass ஐத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="keyboard_discoverable_button">கணினிக்குத் தெரியும்படி செய்</string>
+    <string name="section_pc">3. கணினியில் உள்ள Chrome நீட்டிப்பை இணைக்கவும்</string>
+    <string name="pc_instructions">Chrome நீட்டிப்பில் பின்வரும் மதிப்புகளை உள்ளிடவும்.</string>
+    <string name="pin_label">PIN: %1$s</string>
+    <string name="port_label">போர்ட்: %1$d</string>
+    <string name="ip_label">IP: %1$s</string>
+    <string name="no_ip_address">IP முகவரி கிடைக்கவில்லை. டெதரிங் அல்லது Wi-Fi ஐ இயக்கவும்.</string>
+    <string name="pc_connected">கணினி: இணைக்கப்பட்டுள்ளது</string>
+    <string name="pc_disconnected">கணினி: இணைக்கப்படவில்லை</string>
+    <string name="refresh_ip_button">IP ஐப் புதுப்பி</string>
+    <string name="change_pin_button">PIN ஐ மாற்று</string>
+    <string name="section_glasses">4. கண்ணாடியில் காட்டவும்</string>
+    <string name="glasses_state">கண்ணாடி: %1$s</string>
+    <string name="glasses_idle">நிறுத்தப்பட்டது</string>
+    <string name="glasses_connecting">இணைக்கிறது…</string>
+    <string name="glasses_ready">காட்டுகிறது</string>
+    <string name="glasses_error">பிழை</string>
+    <string name="start_display_button">காட்சியைத் தொடங்கு</string>
+    <string name="stop_display_button">காட்சியை நிறுத்து</string>
+    <string name="section_current_slide">தற்போதைய ஸ்லைடு</string>
+    <string name="no_deck_yet">இன்னும் ஸ்லைடுகள் பெறப்படவில்லை</string>
+    <string name="deck_position">%1$s  %2$d / %3$d</string>
+    <string name="phone_next_slide">அடுத்த ஸ்லைடு</string>
+    <string name="render_timing">காட்சிப் புதுப்பிப்பு (%1$s, %2$.1f KB): படம் உருவாக்க %3$d ms, கண்ணாடிக்கு அனுப்ப %4$d ms</string>
+    <string name="render_timing_from_input">சைகையிலிருந்து காட்சி வரை: %1$d ms</string>
+    <string name="quit_button">வெளியேறு</string>
+
+    <string name="prev_button">முந்தையது</string>
+    <string name="next_button">அடுத்தது</string>
+
+    <string name="glasses_pc_disconnected">கணினி இணைக்கப்படவில்லை</string>
+
+    <string name="message_deck_received">%1$d ஸ்லைடுகள் பெறப்பட்டன</string>
+    <string name="message_pc_not_connected">கணினியுடன் இணைக்கப்படாததால் ஸ்லைடுகளை நகர்த்த முடியாது</string>
+    <string name="message_server_error">கணினியிலிருந்து இணைப்புக்காகக் காத்திருக்க முடியவில்லை: %1$s</string>
+    <string name="message_connecting_glasses">கண்ணாடியுடன் இணைக்கிறது</string>
+    <string name="message_glasses_ready">கண்ணாடியில் காட்டத் தயார்</string>
+    <string name="message_glasses_disconnected">கண்ணாடியுடனான இணைப்பு துண்டிக்கப்பட்டது</string>
+    <string name="message_display_closed">கண்ணாடிக் காட்சி மூடப்பட்டது</string>
+    <string name="message_mock_failed">மெய்நிகர் கண்ணாடியைத் தயார் செய்ய முடியவில்லை</string>
+    <string name="message_reconnecting_glasses">கண்ணாடியுடனான இணைப்பு துண்டிக்கப்பட்டது. மீண்டும் இணைக்கிறது</string>
+    <string name="message_inputs_failed">சைகைகளைப் பெற முடியவில்லை: %1$s</string>
+    <string name="glasses_controls_hint">கண்ணாடிக் கட்டுப்பாடு: கட்டைவிரலை ஆள்காட்டி விரலின் மேல் வலப்பக்கம் நகர்த்தினால் அடுத்த ஸ்லைடு, இடப்பக்கம் நகர்த்தினால் முந்தைய ஸ்லைடு. கிள்ளினால் தற்போதைய ஸ்லைடில் உள்ள வீடியோ இயங்கும் அல்லது இடைநிறுத்தப்படும்.</string>
+    <string name="display_pattern_label">கண்ணாடிக் காட்சி அமைப்பு</string>
+    <string name="display_pattern_two_slides">முறை 1: தற்போதைய ஸ்லைடும் அடுத்த ஸ்லைடும்</string>
+    <string name="display_pattern_focus">முறை 2: தற்போதைய ஸ்லைடு பெரிதாக, அடுத்ததன் தலைப்பு மட்டும்</string>
+    <string name="glasses_next_title">அடுத்து: %1$s</string>
+    <string name="glasses_untitled_slide">ஸ்லைடு %1$d</string>
+    <string name="glasses_last_slide">இல்லை (கடைசி ஸ்லைடு)</string>
+
+    <string name="pc_warning_deck_load_failed">ஸ்லைடுகளை ஏற்ற முடியவில்லை</string>
+    <string name="pc_warning_slide_number_unreadable">ஸ்லைடு எண்ணைப் படிக்க முடியவில்லை</string>
+    <string name="pc_warning_navigation_failed">ஸ்லைடுகளை நகர்த்த முடியவில்லை</string>
+
+    <string name="error_version_mismatch">பதிப்பு பொருந்தவில்லை (கணினி: %1$d, தொலைபேசி: %2$d)</string>
+    <string name="error_wrong_pin">தவறான PIN</string>
+</resources>
